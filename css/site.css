@@ -241,7 +241,22 @@ section { margin: 4rem 0 0; scroll-margin-top: 1.5rem; }
 }
 .people .name { display: block; color: var(--fg); font-size: .97rem; }
 .people .role { display: block; color: var(--accent-2); margin-top: .25rem; }
+.people .focus { display: block; color: var(--fg-2); font-size: .88rem; margin-top: .15rem; }
 .people .affil { display: block; color: var(--dim); font-size: .85rem; margin-top: .15rem; }
+
+/* ---------- alumni ---------- */
+
+.alumni {
+  list-style: none; margin: 0; padding: 0;
+  columns: 3; column-gap: 3rem;
+}
+.alumni li { break-inside: avoid; padding: .3rem 0 .7rem; }
+.alumni .name { display: block; color: var(--fg); font-size: .97rem; }
+.alumni .was {
+  display: block;
+  font-family: var(--mono); font-size: .74rem;
+  color: var(--dim);
+}
 
 /* ---------- assets ---------- */
 
@@ -278,6 +293,18 @@ section { margin: 4rem 0 0; scroll-margin-top: 1.5rem; }
 }
 .pubs li a { border-bottom: 1px solid color-mix(in srgb, var(--accent-2) 25%, transparent); }
 
+/* ---------- patents ---------- */
+
+.patents { list-style: none; margin: 0; padding: 0; }
+.patents li {
+  padding: .85rem 0;
+  border-bottom: 1px solid var(--rule);
+  font-size: .97rem;
+}
+.patents li:first-child { border-top: 1px solid var(--rule); }
+.patents li a { border-bottom: 1px solid color-mix(in srgb, var(--accent-2) 25%, transparent); }
+.patents .meta { display: block; margin-top: .25rem; }
+
 /* ---------- acknowledgements ---------- */
 
 /* the source logos arrive with mismatched backgrounds, so each sits on its own plate */
@@ -304,6 +331,7 @@ section { margin: 4rem 0 0; scroll-margin-top: 1.5rem; }
   .masthead .lede { font-size: 1.08rem; }
   .asset { grid-template-columns: 1fr; gap: 1rem; }
   .asset img { max-width: 320px; }
+  .alumni { columns: 1; }
   h1 { font-size: 1.55rem; }
 }
 
