@@ -293,18 +293,6 @@ section { margin: 4rem 0 0; scroll-margin-top: 1.5rem; }
 }
 .pubs li a { border-bottom: 1px solid color-mix(in srgb, var(--accent-2) 25%, transparent); }
 
-/* ---------- patents ---------- */
-
-.patents { list-style: none; margin: 0; padding: 0; }
-.patents li {
-  padding: .85rem 0;
-  border-bottom: 1px solid var(--rule);
-  font-size: .97rem;
-}
-.patents li:first-child { border-top: 1px solid var(--rule); }
-.patents li a { border-bottom: 1px solid color-mix(in srgb, var(--accent-2) 25%, transparent); }
-.patents .meta { display: block; margin-top: .25rem; }
-
 /* ---------- acknowledgements ---------- */
 
 /* the source logos arrive with mismatched backgrounds, so each sits on its own plate */
