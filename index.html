@@ -15,7 +15,9 @@
   <nav class="nav" aria-label="Primary">
     <a class="name" href="/">DREAMS Laboratory</a>
     <ul>
+      <li><a href="#approach">approach</a></li>
       <li><a href="#research">research</a></li>
+      <li><a href="#open-problems">open problems</a></li>
       <li><a href="#teaching">teaching</a></li>
       <li><a href="#people">people</a></li>
       <li><a href="#alumni">alumni</a></li>
@@ -37,15 +39,35 @@
     </div>
   </header>
 
+  <p class="thesis">We build systems that close the loop of scientific observation: robots that decide where to look, digital twins where thousands of candidate measurements can be rehearsed cheaply, and field platforms that spend scarce physical actions only on the observations that matter. The question underneath all of it: <em>how does a perceiving system change what it can perceive?</em></p>
+
   <div class="affiliation">
     <p>The lab is affiliated with the <a href="https://sese.asu.edu">School of Earth and Space Exploration</a>, the <a href="https://globalfutures.asu.edu/">Global Futures Laboratory</a>, and the <a href="https://gdcs.asu.edu">Center for Global Discovery and Conservation Science</a>, and is located in ASU's <a href="https://cfo.asu.edu/ISTB7">Walton Center for Planetary Health</a>. Everyone interested in this research is welcome.</p>
   </div>
+
+  <!-- ============ approach ============ -->
+  <section id="approach">
+    <div class="section-head">
+      <h2>Approach</h2>
+      <p class="meta">where and how far</p>
+    </div>
+
+    <div class="area">
+      <h3>Why environmental science first</h3>
+      <p>Reefs, fault scarps, drylands, and planetary surfaces are where autonomous science can be developed responsibly. When a twin is wrong here, the cost is a bad map — a survey to repeat, a sample to retake — not a disaster. That makes these domains the proving ground: demanding enough to need real autonomy, forgiving enough to learn from failure in the open.</p>
+    </div>
+
+    <div class="area">
+      <h3>On autonomous science and AI</h3>
+      <p>The lab builds autonomous instruments, not autonomous scientists. Our systems decide where to look and which measurement to take next, inside questions that people pose; they do not choose the questions, and their inferences are trusted only after they are checked against the physical world. The aim is inquiry that is faster and more honest about its uncertainty — which is why we treat calibration against ground truth, not raw capability, as the central problem.</p>
+    </div>
+  </section>
 
   <!-- ============ research ============ -->
   <section id="research">
     <div class="section-head">
       <h2>Focus areas</h2>
-      <p class="meta">terrestrial · aquatic · cyber-physical · planetary</p>
+      <p class="meta">terrestrial · aquatic · cyber-physical · planetary · theory · craft</p>
     </div>
 
     <div class="area">
@@ -179,6 +201,31 @@
         </div>
       </div>
     </div>
+
+    <div class="area">
+      <h3>Theory</h3>
+      <p>Distinction dynamics is the question beneath the hardware made precise: what an agent can tell apart is not fixed, and every observation changes it. Spectral kernel dynamics treats that capacity — the kernel — as a dynamical variable governed by Maximum Caliber, yielding the most probable paths a perceiving system takes through what it can represent and a lower bound on what that change costs.</p>
+      <p class="meta"><a href="https://arxiv.org/abs/2604.09745">Spectral kernel dynamics via Maximum Caliber</a> · <a href="https://arxiv.org/abs/2604.20887">applied to planetary surface graphs</a></p>
+    </div>
+
+    <div class="area">
+      <h3>Craft and public art</h3>
+      <p>The twin pipeline also runs the other way. In <a href="https://arxiv.org/abs/2603.27801">Engineering Mythology</a>, DeepGIS served as a 1:1 template engine for master artisans in Odisha, India, building <a href="https://darknight-007.github.io/fire/navagunjara/"><em>Navagunjara Reborn</em></a>, an 18-foot sculpture for Burning Man, produced through <a href="https://earthinnovationhub.org">Earth Innovation Hub</a>. The artisans work as knowledge-peers rather than fabricators, with craft mastery and engineering treated as interacting knowledge systems. The sculpture's 2026 reincarnation tests the same claim a digital twin makes: that identity can persist through documented re-instantiation.</p>
+    </div>
+  </section>
+
+  <!-- ============ open problems ============ -->
+  <section id="open-problems">
+    <div class="section-head">
+      <h2>Open problems</h2>
+      <p class="meta">where the twin meets the world</p>
+    </div>
+
+    <div class="area">
+      <h3>Twin-to-reality transfer</h3>
+      <p>Every twin on this page is useful only if inference made on it transfers to the original — and the case that matters most is the hardest one: novel regimes the twin was never calibrated in. A twin can be precise and still wrong. We treat calibration of twin against world as the lab's central unsolved problem, not a solved preprocessing step.</p>
+      <p>Precariously balanced rocks are the flagship test. Their fragility is physically measurable, so predictions from the Virtual Shake Robot can be held against ShakeBot on the bench, where overturning is observed directly rather than inferred · <a href="https://doi.org/10.26443/seismica.v5i2.3019">calibration, benchmarking, and sensitivity (2026)</a></p>
+    </div>
   </section>
 
   <!-- ============ teaching ============ -->
@@ -191,7 +238,7 @@
     <div class="course">
       <h3>SES 598: Space Robotics and AI</h3>
       <p class="meta">Spring 2026 · Tu/Th 1:30–2:45pm · <a href="https://www.asu.edu/map/interactive/?psCode=PSF">PSF</a> 501, ASU Tempe campus</p>
-      <p>A comprehensive introduction to robotic exploration and AI-driven mapping and sampling, tailored for space exploration and earth observation. Students work through computer vision, simultaneous localisation and mapping, multi-robot coordination, and operation in extreme environments, moving from theory to real-world implementation with the ground, aerial, and aquatic robots held by the lab both as digital twins and as physical hardware. The course closes with a group project in which students design and demonstrate an end-to-end robotic system.</p>
+      <p>A comprehensive introduction to robotic exploration and AI-driven mapping and sampling, tailored for space exploration and earth observation. Students work through computer vision, simultaneous localisation and mapping, multi-robot coordination, and operation in extreme environments, moving from theory to real-world implementation with the ground, aerial, and aquatic robots held by the lab both as digital twins and as physical hardware. Students build and close the full loop — perceive, model, decide, act — first on the twin, then in the field. The course closes with a group project in which students design and demonstrate an end-to-end robotic system.</p>
       <p class="meta"><a href="https://github.com/DREAMS-lab/ses598-space-robotics-and-ai-2026">Course materials and assignments on GitHub →</a></p>
     </div>
   </section>
